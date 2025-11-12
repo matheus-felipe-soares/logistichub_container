@@ -13,7 +13,7 @@
 
 </div>
 
----
+
 
 ## 📖 Sobre
 
@@ -29,7 +29,7 @@ Fornecer à equipe de operações uma ferramenta robusta para:
 - Otimizar custos e recursos
 - Melhorar a qualidade do serviço prestado
 
----
+
 
 ## ✨ Funcionalidades
 
@@ -50,7 +50,7 @@ Fornecer à equipe de operações uma ferramenta robusta para:
 - 💼 Rentabilidade por cliente
 - ⛽ Eficiência operacional e consumo
 
----
+
 
 ## 📁 Estrutura do Projeto
 ```
@@ -85,7 +85,7 @@ logistichub_container/
 └── README.md                      # Este arquivo
 ```
 
----
+
 
 ## 🗄️ Modelo de Dados
 
@@ -109,7 +109,7 @@ centros_distribuicao ──────────────┘
 clientes ──────────────────────────┘
 ```
 
----
+
 
 ## 🚀 Instalação
 
@@ -153,7 +153,7 @@ docker-compose up --build
 - Execução do schema SQL
 - Carregamento dos dados via ETL
 
----
+
 
 ## 💻 Uso
 
@@ -201,7 +201,7 @@ docker exec -it logistica_db psql -U postgres -d logistica \
   -f /reports/01_tempo_medio_entrega/query.sql
 ```
 
----
+
 
 ## 📊 Relatórios Disponíveis
 
@@ -215,7 +215,7 @@ Analisa o tempo médio de entrega por rota e transportadora, identificando garga
 - Agrupamento por transportadora e estado
 - Análise de rotas mais rápidas e mais lentas
 
----
+
 
 ### 2️⃣ Taxa de Pontualidade
 📂 `reports/02_taxa_pontualidade/query.sql`
@@ -227,7 +227,7 @@ Mede entregas no prazo vs atrasadas por região e transportadora.
 - Comparativo no prazo vs atrasados
 - Evolução mensal da pontualidade
 
----
+
 
 ### 3️⃣ Custo Médio de Frete
 📂 `reports/03_custo_medio_frete/query.sql`
@@ -239,7 +239,7 @@ Calcula o custo por kg transportado e identifica rotas mais econômicas.
 - Análise de eficiência (custo/km/kg)
 - Taxa de ocupação de carga
 
----
+
 
 ### 4️⃣ Top Motoristas
 📂 `reports/04_top_motoristas/query.sql`
@@ -251,7 +251,7 @@ Ranking dos melhores motoristas baseado em pontualidade e ausência de problemas
 - Top 10 por volume de entregas
 - Bottom 5 com mais problemas
 
----
+
 
 ### 5️⃣ Taxa de Ocupação de Veículos
 📂 `reports/05_taxa_ocupacao_veiculos/query.sql`
@@ -263,7 +263,7 @@ Analisa aproveitamento da capacidade de carga dos veículos.
 - Identificação de subutilização
 - Veículos com melhor aproveitamento
 
----
+
 
 ### 6️⃣ Ranking de Centros de Distribuição
 📂 `reports/06_ranking_centros/query.sql`
@@ -275,7 +275,7 @@ Performance dos CDs por volume de saída e receita gerada.
 - Estados atendidos por CD
 - Taxa de pontualidade por centro
 
----
+
 
 ### 7️⃣ Crescimento Mensal
 📂 `reports/07_crescimento_mensal/query.sql`
@@ -285,9 +285,7 @@ Variação percentual de entregas mês a mês por estado.
 **Métricas:**
 - Crescimento/queda mensal
 - Estados com maior crescimento
-- Tendências e sazonalidades
 
----
 
 ### 8️⃣ Taxa de Problemas
 📂 `reports/08_taxa_problemas/query.sql`
@@ -300,7 +298,7 @@ Análise de avarias, extravios, devoluções e outros problemas.
 - Impacto financeiro de problemas
 - Relação entre distância e problemas
 
----
+
 
 ### 9️⃣ Rentabilidade por Cliente
 📂 `reports/09_rentabilidade_cliente/query.sql`
@@ -313,7 +311,7 @@ Análise de receita gerada vs custo operacional por cliente.
 - Segmentação por faixa de receita
 - Análise de recorrência
 
----
+
 
 ### 🔟 Eficiência Operacional
 📂 `reports/10_eficiencia_operacional/query.sql`
@@ -326,7 +324,7 @@ Análise de consumo de combustível e margem operacional.
 - Margem bruta por tipo de veículo
 - Rotas mais eficientes
 
----
+
 
 ## 🏗️ Arquitetura Técnica
 ```
@@ -428,7 +426,7 @@ docker logs logistica_etl
 | **psycopg2** | 2.9.9 | Conexão Python-PostgreSQL |
 | **SQLAlchemy** | 2.0.23 | ORM para Python |
 
----
+
 
 ## 📈 Métricas do Projeto
 
@@ -441,7 +439,7 @@ docker logs logistica_etl
 - **10** relatórios analíticos
 - **6** tabelas relacionadas
 
----
+
 
 
 ## Autor
