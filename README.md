@@ -489,47 +489,6 @@ sudo usermod -aG docker $USER
 
 ---
 
-## 🎓 Aprendizados e Boas Práticas
-
-### Engenharia de Dados
-✅ Modelagem dimensional (Star Schema)  
-✅ Pipeline ETL robusto com tratamento de erros  
-✅ Normalização e integridade referencial  
-✅ Otimização de queries com índices  
-
-### DevOps
-✅ Containerização completa com Docker  
-✅ Ambiente reproduzível em qualquer máquina  
-✅ Separação de serviços (PostgreSQL + ETL)  
-✅ Health checks e dependências entre containers  
-
-### Análise de Dados
-✅ KPIs relevantes para negócio  
-✅ Queries otimizadas e documentadas  
-✅ Análises bônus com insights adicionais  
-✅ Visualização clara de métricas  
-
----
-
-## 🚧 Roadmap Futuro
-
-- [ ] Dashboard interativo com Streamlit/Metabase
-- [ ] API REST para consulta de dados
-- [ ] Alertas automáticos para KPIs críticos
-- [ ] Integração com sistemas externos
-- [ ] Testes automatizados (pytest)
-- [ ] CI/CD com GitHub Actions
-- [ ] Documentação das APIs
-- [ ] Monitoramento com Prometheus/Grafana
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 ## 👤 Autor
 
 <div align="center">
